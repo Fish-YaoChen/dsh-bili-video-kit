@@ -1,0 +1,15 @@
+{
+  "_说明": "复制到 ~/.dsh/asr.json，把 start 里的路径换成你自己的绝对路径",
+  "baseUrl": "http://127.0.0.1:8123/v1",
+  "model": "sensevoice-onnx",
+  "language": "zh",
+  "manage": {
+    "start": [
+      "node",
+      "C:\\path\\to\\dsh-bili-video-kit\\scripts\\asr-server.cjs"
+    ],
+    "idleMs": 60000,
+    "waitMs": 60000,
+    "healthPath": "/health"
+  }
+}
