@@ -1,0 +1,7 @@
+cookies/*.txt
+asr.json
+*.log
+node_modules/
+.DS_Store
+
+!cookies/README.md
